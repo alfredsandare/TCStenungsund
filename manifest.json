@@ -1,0 +1,22 @@
+{
+	"name": "tcstenungsund",
+	"short_name": "TC-SUS",
+	"description": "A simple Web App example",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons":[
+
+        {
+            "src": "tc.png",
+            "sizes": "192x192",
+			"type": "image/png"
+        },
+        {
+			"src": "tc.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+    ]
+}
