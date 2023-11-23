@@ -1,0 +1,8 @@
+ladda ner docker-compose.yml filen som finns i katalogen
+navigera sedan dit i powershell och kör följande kommando:
+docker-compose up -d
+öppna sedan localhost:8080 i din webbläsare och slutför installationen, alla uppgifter du behöver står i filen du nyss laddade ned, och i övrigt väljer du defaultvärden.
+När du är klar kan du stoppa och starta din utvecklingsmiljö med följande kommandon:
+docker-compose stop
+docker-compose start
+glöm inte ladda ner docker och wsl https://learn.microsoft.com/en-us/windows/wsl/install så att alla kommandon etc funkar!
