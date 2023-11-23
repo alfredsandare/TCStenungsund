@@ -1,3 +1,4 @@
+// testa att sw funkar och se till att webläsaren är kopatepl 
 if('serviceWorker' in navigator) {
   console.log('Service Worker Supported');
   window.addEventListener('load', ()=>{
