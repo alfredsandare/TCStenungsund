@@ -6,3 +6,5 @@
 23-11-23: idag har jag felsökt varför den lokala drupal miljön var långsam, den tog 10+ sekunder varje gång man gick runt i den till nya sidor etc så jag har bytt ut lando som tidigare användes för att installera miljön till att köra en yml fil som Kenneth har skapat tidigare. Nu funkar sidan lokalt utan långa laddtider.
 
 4-12-23: idag har jag tillsammans med alfred och ropen gjort en site map tillsammans.
+
+7-12-23: idag har jag tillsammans med alfred, ropen och alexander sätt över och ändrat våra wireframes lite som ropen hade gjort.
