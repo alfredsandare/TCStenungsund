@@ -1,4 +1,35 @@
-header{
-    text-align: center;
-    color:orange;
+/* styles.css */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.email-top {
+	background-color: #d39100;
+}
+.btn {
+	color: white !important;
+	background-color: #d39100 !important;
+}
+
+.navbar-brand img {
+	width: 12rem;
+	height: 100px;
+}
+.header .text {
+	margin-top: 5rem;
+}
+.header-img img {
+	margin-top: 5rem !important;
+}
+.social {
+	list-style: none;
+}
+
+.video-iframe iframe {
+	width: 20;
+	height: 20;
 }
