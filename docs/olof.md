@@ -10,3 +10,5 @@
 7-12-23: idag har jag tillsammans med alfred, ropen och alexander sätt över och ändrat våra wireframes lite som ropen hade gjort.
 
 12-12-23: idag har jag börjat med undersidan skolrelateratinfo och pushat upp allt från alex dator.
+
+14-12-23: idag har jag börjat fixa navbaren på undersidan skolrelateratinfo (går sen att kopiera över till alla andra undersidor så navbararna är likadana) och också gjort det mesta av en artikel lista på samma undersida.
