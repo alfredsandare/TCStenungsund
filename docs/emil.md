@@ -3,3 +3,4 @@
 12-05 jag och isaac har fortsatt göra så snygga wireframmes vi kan. 
 12-07 börjat jobba med penpot.
 12-14 jag har börjat göra kontakta oss webbsidan. 
+http://127.0.0.1:5500/kontaktaoss.html 
