@@ -2,3 +2,4 @@
 11-21 börjat jobba med wireframes och kollade runt på dem olika färgerna. 
 12-05 jag och isaac har fortsatt göra så snygga wireframmes vi kan. 
 12-07 börjat jobba med penpot.
+12-14 jag har börjat göra kontakta oss webbsidan. 
