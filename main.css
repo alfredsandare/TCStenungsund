@@ -34,6 +34,17 @@
 	height: 20;
 }
 
+.button-big {
+	height: 15rem;
+	width: 30rem;
+}
+
+#gymnasieingenjör {
+	height: 13rem;
+	width: 40rem;
+}
+
+
 .multiline-ellipsis {
 	overflow: hidden;
 	display: -webkit-box;
