@@ -12,3 +12,5 @@
 12-12-23: idag har jag börjat med undersidan skolrelateratinfo och pushat upp allt från alex dator.
 
 14-12-23: idag har jag börjat fixa navbaren på undersidan skolrelateratinfo (går sen att kopiera över till alla andra undersidor så navbararna är likadana) och också gjort det mesta av en artikel lista på samma undersida.
+
+18-12-23: idag har jag gjort klart första iterationen av knapparna som ska användas på undersidan skolrelateratinfo.
