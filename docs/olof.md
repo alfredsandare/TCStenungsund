@@ -16,3 +16,5 @@
 18-12-23: idag har jag gjort klart första iterationen av knapparna som ska användas på undersidan skolrelateratinfo.
 
 15/1/24:  idag har jag börjat jobba med industriteknik sidan.
+
+25/1/24:  idag har jag gjort klart första versionen av industriteknik sidan.
