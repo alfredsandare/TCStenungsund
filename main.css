@@ -44,6 +44,26 @@
 	width: 40rem;
 }
 
+.textrutainfo{
+	max-width: 50rem;
+}
+
+.youtubevideo{
+	position: absolute;
+	top: 16rem;
+	right: 1rem;
+}
+
+.youtubevideo:nth-child(2){
+	position: absolute;
+	top: 44.6rem;
+	right: 1rem;
+}
+
+.rm{
+	pointer-events: none;
+}
+
 
 .multiline-ellipsis {
 	overflow: hidden;
