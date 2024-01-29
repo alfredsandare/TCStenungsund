@@ -7,9 +7,11 @@
 	margin: 0;
 	padding: 0;
 }
+
 .email-top {
 	background-color: #d39100;
 }
+
 .btn {
 	color: white !important;
 	background-color: #d39100 !important;
@@ -19,12 +21,15 @@
 	width: 12rem;
 	height: 100px;
 }
+
 .header .text {
 	margin-top: 5rem;
 }
+
 .header-img img {
 	margin-top: 5rem !important;
 }
+
 .social {
 	list-style: none;
 }
@@ -44,23 +49,27 @@
 	width: 40rem;
 }
 
-.textrutainfo{
+.textrutainfo {
 	max-width: 50rem;
 }
 
-.youtubevideo{
+.textrutainfo_gymnasieingenjor {
+	max-width: 80rem;
+}
+
+.youtubevideo {
 	position: absolute;
 	top: 16rem;
 	right: 1rem;
 }
 
-.youtubevideo:nth-child(2){
+.youtubevideo:nth-child(2) {
 	position: absolute;
 	top: 44.6rem;
 	right: 1rem;
 }
 
-.rm{
+.rm {
 	pointer-events: none;
 }
 
@@ -76,6 +85,8 @@
 	overflow: hidden;
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 4; /* start showing ellipsis when 3rd line is reached */
-	white-space: pre-wrap; /* let the text wrap preserving spaces */
+	-webkit-line-clamp: 4;
+	/* start showing ellipsis when 3rd line is reached */
+	white-space: pre-wrap;
+	/* let the text wrap preserving spaces */
 }
