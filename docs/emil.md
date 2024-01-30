@@ -4,3 +4,5 @@
 12-07 börjat jobba med penpot.
 12-14 jag har börjat göra kontakta oss webbsidan. 
 http://127.0.0.1:5500/kontaktaoss.html 
+Har glömt av att skriva en del. Men har under tiden jobbat med kontakta oss webbsidan och som nu är helt klar. Och ska där med börja med något nytt.
+Har börjat bygga teknikprogrammet sidan. 
