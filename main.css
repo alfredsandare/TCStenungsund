@@ -48,29 +48,35 @@
 	max-width: 50rem;
 }
 
-.youtubevideo{
-	position: absolute;
-	top: 16rem;
-	right: 1rem;
-}
-
-.youtubevideo:nth-child(2){
-	position: absolute;
-	top: 44.6rem;
-	right: 1rem;
-}
-
 .rm{
 	pointer-events: none;
+}
+.add{
+	pointer-events: auto;
+}
+
+.embedded-video-16-9 {
+	width:  90vw;
+	height: 50.625vw; /* 90*9/16 */
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+  
+@media (min-width: 893px) {
+	.embedded-video-16-9 {
+	width: 45vw;
+	height: 25.3125vw; /* 45*9/16 */
+	margin-left: 2vw;
+	margin-right: 2vw
+}
 }
 
 .align-btn-text-center{
 	position: relative;
- 	 top: 50%;
+ 	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
 }
-
 
 .multiline-ellipsis {
 	overflow: hidden;
