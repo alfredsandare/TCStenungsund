@@ -18,3 +18,5 @@
 15/1/24:  idag har jag börjat jobba med industriteknik sidan.
 
 25/1/24:  idag har jag gjort klart första versionen av industriteknik sidan.
+
+1/2/24:   idag har jag gjort klart den andra versionen av industriteknik sidan och gjort elementen dynamiska som tidigare var statiska.
