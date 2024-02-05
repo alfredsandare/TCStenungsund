@@ -41,9 +41,6 @@
 
 .button-big {
 	height: 15rem;
-	width: 30rem;
-}
-.m-5 .d-flex .button-big:nth-child(1){
 	width: 40rem;
 }
 
