@@ -1,0 +1,284 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.top-bar {
+	background-color: #d39100;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	color: #fff;
+}
+.container-box {
+	width: 1200px;
+	padding: 0 32px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+nav {
+	/* background-color: #333; */
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container {
+	width: 1200px;
+	padding: 0 32px;
+	margin: 0 auto;
+}
+.container-box {
+	width: 1200px;
+	padding: 0 32px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+.logo img {
+	width: 80px; /* Adjust logo width */
+	height: auto; /* Maintain aspect ratio */
+}
+.nav-links {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 70px;
+}
+.nav-links li {
+	margin: 0 10px;
+}
+.nav-links li a {
+	color: #939393;
+	text-decoration: none;
+	transition: all ease-in-out 0.3s;
+	-webkit-transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+}
+.nav-links li a:hover {
+	color: #000;
+}
+.social-icons {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.social-icons a {
+	color: white;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	/* background-color: #f0f0f0; Add background color here */
+}
+
+.contact i,
+.map i {
+	margin-right: 10px;
+}
+.fa-facebook {
+	color: #1877f2;
+	font-size: 25px;
+}
+.fa-instagram {
+	color: #833ab4;
+	font-size: 25px;
+}
+
+.fa-linkedin {
+	color: #0a66c2;
+	font-size: 25px;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.header-content {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.header-title {
+	font-size: 36px;
+}
+
+.header-section {
+	margin-top: 30px;
+}
+
+.section-heading {
+	font-size: 24px;
+	text-align: center;
+}
+
+.section-text {
+	font-size: 16px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #e55e00;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #ff6600;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition for transform */
+}
+
+.button:hover {
+	background-color: #e55e00;
+	transform: scale(1.1); /* Scale up the button on hover */
+}
+
+/* Animation for the button */
+@keyframes buttonPulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.button-animation {
+	animation: buttonPulse 1s infinite; /* Apply the animation */
+}
+
+.sliding-boxes {
+	width: 100%;
+	overflow: hidden;
+}
+
+.box-container {
+	display: flex;
+	transition: transform 0.5s ease;
+}
+
+.box {
+	flex: 0 0 20%; /* Each box takes up 20% of the container */
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.box h3 {
+	margin-top: 0;
+}
+
+.box-button {
+	display: block;
+	margin-top: 10px;
+	padding: 8px 16px;
+	background-color: #e55e00;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.box-button:hover {
+	background-color: #e55e00;
+	transform: scale(1.1); /* Scale up the button on hover */
+}
+
+.sliding-boxes h1 {
+	text-align: center;
+}
+
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 30px 0 0 0;
+	margin-top: 20px; /* Lägg till ett mellanrum över fotern */
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+
+	margin: 0 auto;
+}
+
+.footer-section {
+	padding: 0 20px;
+	width: 31%;
+}
+
+.footer-section h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.social-icons a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.social-icons ul li {
+	list-style: none;
+	display: inline;
+	margin-right: 20px;
+}
+
+.footer-bottom {
+	background-color: #222;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 0;
+}
+
+.footer-bottom p {
+	margin: 0;
+}
+.box-container {
+	margin-bottom: 50px;
+}
+.container {
+	width: 1200px;
+	padding: 0 32px;
+	margin: 0 auto;
+}
+
+.foretaglogo {
+	width: 200px;
+
+	height: 200px;
+}
+
+ /* //////////Gjort av alexander

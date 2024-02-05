@@ -1,0 +1,372 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+nav {
+	/* background-color: #333; */
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container {
+	width: 1200px;
+	padding: 0 32px;
+	margin: 0 auto;
+}
+.container-box {
+	width: 1200px;
+	padding: 0 32px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+.logo img {
+	width: 80px; /* Adjust logo width */
+	height: auto; /* Maintain aspect ratio */
+}
+.nav-links {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 70px;
+}
+.nav-links li {
+	margin: 0 10px;
+}
+.nav-links li a {
+	color: #939393;
+	text-decoration: none;
+	transition: all ease-in-out 0.3s;
+	-webkit-transition: all ease-in-out 0.3s;
+	-moz-transition: all ease-in-out 0.3s;
+	-ms-transition: all ease-in-out 0.3s;
+	-o-transition: all ease-in-out 0.3s;
+}
+.nav-links li a:hover {
+	color: #000;
+}
+.social-icons {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.social-icons a {
+	color: white;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	/* background-color: #f0f0f0; Add background color here */
+}
+
+.text {
+	flex: 1;
+	padding: 20px;
+	max-width: 40%;
+}
+
+.video {
+	flex: 0.5;
+	padding: 10px;
+	border: 2px solid #ccc; /* Add a border for styling */
+	border-radius: 8px; /* Add border radius for rounded corners */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+	text-align: center;
+	max-width: 40%;
+	position: relative;
+	overflow: hidden;
+}
+.video img {
+	width: 100%;
+}
+.video iframe {
+	/* width: 60%; Ensure the iframe takes the full width */
+	height: 300px; /* Automatically adjust the height */
+	border: none; /* Remove border */
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.66);
+	opacity: 1;
+	z-index: 999999999999999;
+}
+.overlay i {
+	font-size: 50px;
+	color: #ff0000;
+}
+.services {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.service {
+	flex: 1;
+	background-color: #f0f0f0;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0 10px;
+	text-align: center;
+}
+
+.service h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.service p {
+	font-size: 16px;
+}
+
+.box-section {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.box-section {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.box {
+	width: 45%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border: 2px solid #e0e0e0;
+	transition: transform 0.3s ease;
+}
+
+.box:hover {
+	transform: translateY(-5px);
+}
+
+.box-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+.box-content h2 {
+	font-size: 28px; /* Larger font size */
+	margin-bottom: 15px; /* Increased margin */
+	font-family: 'Arial', sans-serif; /* Different font family */
+}
+
+.box-content p {
+	font-size: 20px; /* Larger font size */
+	margin: 0;
+	font-family: 'Arial', sans-serif; /* Different font family */
+}
+
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 30px 0 0 0;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.footer-section {
+	padding: 0 20px;
+	width: 31%;
+}
+
+.footer-section h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.social-icons a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+}
+.social-icons ul li {
+	list-style: none;
+	display: inline;
+	margin-right: 20px;
+}
+
+.footer-bottom {
+	background-color: #222;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.footer-bottom p {
+	margin: 0;
+}
+.statistics {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 0;
+	background-color: #f5f5f5;
+}
+
+.stat-box {
+	text-align: center;
+}
+
+.stat-box h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.stat-number {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+	animation: countUp 2s ease-in-out forwards;
+	opacity: 0;
+}
+
+@keyframes countUp {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.top-bar {
+	background-color: #d39100;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	color: #fff;
+}
+
+.contact i,
+.map i {
+	margin-right: 10px;
+}
+.fa-facebook {
+	color: #1877f2;
+	font-size: 25px;
+}
+.fa-instagram {
+	color: #833ab4;
+	font-size: 25px;
+}
+
+.fa-linkedin {
+	color: #0a66c2;
+	font-size: 25px;
+}
+h1 {
+	text-align: center;
+}
+
+.tc-facebook {
+	width: 100%;
+}
+
+.Ts-instagram {
+	width: 100%;
+}
+
+.Ts-linkedin {
+	width: 100%;
+}
+
+.Ts-tiktok {
+	width: 100%;
+}
+
+.service button {
+	margin: 5px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 30px; /* Runda hörn */
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all 0.3s ease;
+}
+
+/* Stil för Facebook-knappen */
+.facebook-button {
+	background-color: #1877f2; /* Facebook-blå färg */
+	color: #fff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Skugga */
+}
+
+/* Stil för Instagram-knappen */
+.instagram-button {
+	background: linear-gradient(
+		to right,
+		#833ab4,
+		#fd1d1d,
+		#fcb045
+	); /* Instagram-gradient */
+	color: #fff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Stil för LinkedIn-knappen */
+.linkedin-button {
+	background-color: #0077b5; /* LinkedIn-blå färg */
+	color: #fff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Stil för TikTok-knappen */
+.tiktok-button {
+	background-color: #69c9d0; /* TikTok-turkos färg */
+	color: #000;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover-effekt för knappar */
+.service button:hover {
+	transform: translateY(-3px); /* Lite förskjutning uppåt */
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Skugga för hover-effekt */
+}
+
+
+/* //////////Gjort av alexander
