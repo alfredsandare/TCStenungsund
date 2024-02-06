@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: #232D37;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    flex: 1;
+    border: 8px solid #386C93 ;
+    padding: 3em;
+    box-sizing: border-box;
+    margin:1.5em;
+    border-radius: 5em;
+    text-align: center;
+    box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.15);
+}
+
+.container1{
+    display:flex;
+    justify-content: center #232D37;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 1.5em;
+    text-align: center;
+}
+.box1{
+    flex: 1;
+    border: hidden ;
+    box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.15);
+}
+
+/*gråvit: #E8E8E8 gul: #F4B834 svart: #232D37 mörk blå: #386C93
+https://app.tcstenungsund.se/sites/default/files/styles/webp/public/2020-12/AnnaJillmyr.jpg.webp?itok=fWkT0WoY
+https://app.tcstenungsund.se/sites/default/files/styles/webp/public/2021-01/emelie_schelin.jpeg.webp?itok=NaPVajdx
+https://app.tcstenungsund.se/sites/default/files/styles/webp/public/2020-12/Nicklas.jpg.webp?itok=9HoHMaT2

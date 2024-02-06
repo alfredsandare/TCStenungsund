@@ -8,3 +8,15 @@
 4-12-23: idag har jag tillsammans med alfred och ropen gjort en site map tillsammans.
 
 7-12-23: idag har jag tillsammans med alfred, ropen och alexander sätt över och ändrat våra wireframes lite som ropen hade gjort.
+
+12-12-23: idag har jag börjat med undersidan skolrelateratinfo och pushat upp allt från alex dator.
+
+14-12-23: idag har jag börjat fixa navbaren på undersidan skolrelateratinfo (går sen att kopiera över till alla andra undersidor så navbararna är likadana) och också gjort det mesta av en artikel lista på samma undersida.
+
+18-12-23: idag har jag gjort klart första iterationen av knapparna som ska användas på undersidan skolrelateratinfo.
+
+15/1/24:  idag har jag börjat jobba med industriteknik sidan.
+
+25/1/24:  idag har jag gjort klart första versionen av industriteknik sidan.
+
+1/2/24:   idag har jag gjort klart den andra versionen av industriteknik sidan och gjort elementen dynamiska som tidigare var statiska.

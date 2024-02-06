@@ -1,0 +1,98 @@
+/* styles.css */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.email-top {
+	background-color: #d39100;
+}
+
+.btn {
+	color: white !important;
+	background-color: #d39100 !important;
+}
+
+.navbar-brand img {
+	width: 12rem;
+	height: 100px;
+}
+
+.header .text {
+	margin-top: 5rem;
+}
+
+.header-img img {
+	margin-top: 5rem !important;
+}
+
+.social {
+	list-style: none;
+}
+
+.video-iframe iframe {
+	width: 20;
+	height: 20;
+}
+
+.button-big {
+	height: 15rem;
+	width: 40rem;
+}
+
+#gymnasieingenjör {
+	height: 13rem;
+	width: 40rem;
+}
+
+.textrutainfo {
+	max-width: 50rem;
+}
+
+.textrutainfo_gymnasieingenjor {
+	max-width: 80rem;
+}
+
+.rm {
+	pointer-events: none;
+}
+.add{
+	pointer-events: auto;
+}
+
+.embedded-video-16-9 {
+	width:  90vw;
+	height: 50.625vw; /* 90*9/16 */
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+  
+@media (min-width: 893px) {
+	.embedded-video-16-9 {
+	width: 45vw;
+	height: 25.3125vw; /* 45*9/16 */
+	margin-left: 2vw;
+	margin-right: 2vw
+}
+}
+
+.align-btn-text-center{
+	position: relative;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.multiline-ellipsis {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	/* start showing ellipsis when 3rd line is reached */
+	white-space: pre-wrap;
+	/* let the text wrap preserving spaces */
+}
