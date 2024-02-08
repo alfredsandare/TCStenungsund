@@ -57,11 +57,28 @@
 	max-width: 80rem;
 }
 
-.rm {
-	pointer-events: none;
+.rm:hover {
+	color: #212529;
 }
-.add{
-	pointer-events: auto;
+
+.add:hover {
+	color: blue;
+}
+
+a:link{
+	color: oklch(36.83% 0.13 276.27);
+}
+
+a:hover{
+	color: oklch(58.54% 0.178 252.77);
+}
+
+a:visited{
+	color: oklch(58.54% 0.192 311.29);
+}
+
+.rmactive:visited{
+	color: #939393;
 }
 
 .embedded-video-16-9 {
