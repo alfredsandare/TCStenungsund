@@ -61,6 +61,10 @@
 	color: #212529;
 }
 
+.rm:visited {
+	color: #212529;
+}
+
 .add:hover {
 	color: blue;
 }
